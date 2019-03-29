@@ -20,7 +20,7 @@ class PostsController < ApplicationController
     if params[:author_id]
       @post = Post.new(author_id: params[:author_id])
     else
-      @post = Post.new    
+      @post = Post.new
     end
   end
 
